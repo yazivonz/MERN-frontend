@@ -30,13 +30,13 @@ const Profile = () => {
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gradient-to-r from-[#fffdf9] to-[#134278] mt-50">
+    <div className="flex items-center justify-center min-h-screen bg-gradient-to-r from-[#fffdf9] to-[#134278] pt-24 pb-20">
       <Toaster position="top-center" reverseOrder={false} />
-      <div className="flex bg-white shadow-md rounded-lg p-6 pt-20 w-11/12 lg:w-8/12 space-x-4">
+      <div className="flex bg-white shadow-md rounded-lg p-4 w-11/12 lg:w-8/12 space-x-2">
         {/* Profile Section */}
         <div className="flex flex-col w-full">
-          <h4 className="text-5xl font-bold text-center">Profile</h4>
-          <span className="py-4 text-xl text-center text-gray-500">
+          <h4 className="text-4xl font-bold text-center mt-4">Profile</h4>
+          <span className="py-2 text-lg text-center text-gray-500">
             You can update your details.
           </span>
 
